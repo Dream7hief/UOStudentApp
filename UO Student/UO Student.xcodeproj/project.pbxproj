@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A23A3FD1FD9BF63007FF6B9 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A3F31FD9BF63007FF6B9 /* Task+CoreDataClass.swift */; };
+		2A23A3FF1FD9BF63007FF6B9 /* Day+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A3F51FD9BF63007FF6B9 /* Day+CoreDataClass.swift */; };
+		2A23A4011FD9BF63007FF6B9 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A3F71FD9BF63007FF6B9 /* Course+CoreDataClass.swift */; };
+		2A23A4031FD9BF63007FF6B9 /* Building+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A3F91FD9BF63007FF6B9 /* Building+CoreDataClass.swift */; };
+		2A23A4051FD9BF63007FF6B9 /* Instructor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A3FB1FD9BF63007FF6B9 /* Instructor+CoreDataClass.swift */; };
+		2A23A40C1FD9C0BE007FF6B9 /* Day+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A4071FD9C0BD007FF6B9 /* Day+CoreDataProperties.swift */; };
+		2A23A40D1FD9C0BE007FF6B9 /* Instructor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A4081FD9C0BE007FF6B9 /* Instructor+CoreDataProperties.swift */; };
+		2A23A40E1FD9C0BE007FF6B9 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A4091FD9C0BE007FF6B9 /* Course+CoreDataProperties.swift */; };
+		2A23A40F1FD9C0BE007FF6B9 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A40A1FD9C0BE007FF6B9 /* Task+CoreDataProperties.swift */; };
+		2A23A4101FD9C0BE007FF6B9 /* Building+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A23A40B1FD9C0BE007FF6B9 /* Building+CoreDataProperties.swift */; };
+		2A3837791FD4B02100826174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837781FD4B02100826174 /* AppDelegate.swift */; };
+		2A38377B1FD4B02100826174 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A38377A1FD4B02100826174 /* MapViewController.swift */; };
+		2A38377E1FD4B02100826174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A38377C1FD4B02100826174 /* Main.storyboard */; };
+		2A3837811FD4B02100826174 /* UO_Student.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A38377F1FD4B02100826174 /* UO_Student.xcdatamodeld */; };
+		2A3837861FD4B02100826174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3837841FD4B02100826174 /* LaunchScreen.storyboard */; };
+		2A3837911FD4B02100826174 /* UO_StudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837901FD4B02100826174 /* UO_StudentTests.swift */; };
+		2A38379C1FD4B02100826174 /* UO_StudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A38379B1FD4B02100826174 /* UO_StudentUITests.swift */; };
+		2A3837C11FD4DAE200826174 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837BD1FD4DAE100826174 /* CalendarViewController.swift */; };
+		2A3837C21FD4DAE200826174 /* AddModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837BE1FD4DAE200826174 /* AddModelController.swift */; };
+		2A3837C41FD4DB2500826174 /* CustomUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837C31FD4DB2500826174 /* CustomUIColor.swift */; };
+		2A3837C61FD4DB4800826174 /* AddCourseViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837C51FD4DB4800826174 /* AddCourseViewControllerDelegate.swift */; };
+		2A3837C81FD4DB6300826174 /* CourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837C71FD4DB6300826174 /* CourseService.swift */; };
+		2A3837CB1FD4DB7500826174 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3837C91FD4DB7500826174 /* CalendarCell.swift */; };
+		2A38DF771FD9D0D200EDEFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A38DF761FD9D0D200EDEFF9 /* Assets.xcassets */; };
+		2AAA10011FD9E4EE00E32B94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FDA1FD9E4ED00E32B94 /* Icon.png */; };
+		2AAA10021FD9E4EE00E32B94 /* icon_20pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FDB1FD9E4ED00E32B94 /* icon_20pt.png */; };
+		2AAA10031FD9E4EE00E32B94 /* icon_20pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FDC1FD9E4ED00E32B94 /* icon_20pt@2x.png */; };
+		2AAA10041FD9E4EE00E32B94 /* icon_20pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FDD1FD9E4ED00E32B94 /* icon_20pt@3x.png */; };
+		2AAA10051FD9E4EE00E32B94 /* icon_29pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FDE1FD9E4ED00E32B94 /* icon_29pt.png */; };
+		2AAA10061FD9E4EE00E32B94 /* icon_29pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FDF1FD9E4ED00E32B94 /* icon_29pt@2x.png */; };
+		2AAA10071FD9E4EE00E32B94 /* icon_29pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE01FD9E4ED00E32B94 /* icon_29pt@3x.png */; };
+		2AAA10081FD9E4EE00E32B94 /* icon_40pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE11FD9E4ED00E32B94 /* icon_40pt.png */; };
+		2AAA10091FD9E4EE00E32B94 /* icon_40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE21FD9E4ED00E32B94 /* icon_40pt@2x.png */; };
+		2AAA100A1FD9E4EE00E32B94 /* icon_60pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE31FD9E4ED00E32B94 /* icon_60pt@2x.png */; };
+		2AAA100B1FD9E4EE00E32B94 /* icon_60pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE41FD9E4ED00E32B94 /* icon_60pt@3x.png */; };
+		2AAA100C1FD9E4EE00E32B94 /* icon_76pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE51FD9E4ED00E32B94 /* icon_76pt.png */; };
+		2AAA100D1FD9E4EE00E32B94 /* icon_76pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE61FD9E4ED00E32B94 /* icon_76pt@2x.png */; };
+		2AAA100E1FD9E4EE00E32B94 /* icon_83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE71FD9E4ED00E32B94 /* icon_83.5@2x.png */; };
+		2AAA100F1FD9E4EE00E32B94 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FE91FD9E4EE00E32B94 /* Calendar.png */; };
+		2AAA10101FD9E4EE00E32B94 /* Calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FEA1FD9E4EE00E32B94 /* Calendar@2x.png */; };
+		2AAA10111FD9E4EE00E32B94 /* Calendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FEB1FD9E4EE00E32B94 /* Calendar@3x.png */; };
+		2AAA10121FD9E4EE00E32B94 /* CalendarBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FEC1FD9E4EE00E32B94 /* CalendarBack1.png */; };
+		2AAA10131FD9E4EE00E32B94 /* CalendarBack1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FED1FD9E4EE00E32B94 /* CalendarBack1@2x.png */; };
+		2AAA10141FD9E4EE00E32B94 /* CalendarBack1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FEE1FD9E4EE00E32B94 /* CalendarBack1@3x.png */; };
+		2AAA10151FD9E4EE00E32B94 /* CalendarBack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FEF1FD9E4EE00E32B94 /* CalendarBack2.png */; };
+		2AAA10161FD9E4EE00E32B94 /* CalendarBack2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF01FD9E4EE00E32B94 /* CalendarBack2@2x.png */; };
+		2AAA10171FD9E4EE00E32B94 /* CalendarBack2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF11FD9E4EE00E32B94 /* CalendarBack2@3x.png */; };
+		2AAA10181FD9E4EE00E32B94 /* CalendarBack3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF21FD9E4EE00E32B94 /* CalendarBack3.png */; };
+		2AAA10191FD9E4EE00E32B94 /* CalendarBack3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF31FD9E4EE00E32B94 /* CalendarBack3@2x.png */; };
+		2AAA101A1FD9E4EE00E32B94 /* CalendarBack3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF41FD9E4EE00E32B94 /* CalendarBack3@3x.png */; };
+		2AAA101B1FD9E4EE00E32B94 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF51FD9E4EE00E32B94 /* Home.png */; };
+		2AAA101C1FD9E4EE00E32B94 /* Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF61FD9E4EE00E32B94 /* Home@2x.png */; };
+		2AAA101D1FD9E4EE00E32B94 /* Home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF71FD9E4EE00E32B94 /* Home@3x.png */; };
+		2AAA101E1FD9E4EE00E32B94 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF81FD9E4EE00E32B94 /* Map.png */; };
+		2AAA101F1FD9E4EE00E32B94 /* Map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FF91FD9E4EE00E32B94 /* Map@2x.png */; };
+		2AAA10201FD9E4EE00E32B94 /* Map@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FFA1FD9E4EE00E32B94 /* Map@3x.png */; };
+		2AAA10211FD9E4EE00E32B94 /* Planner.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FFB1FD9E4EE00E32B94 /* Planner.png */; };
+		2AAA10221FD9E4EE00E32B94 /* Planner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FFC1FD9E4EE00E32B94 /* Planner@2x.png */; };
+		2AAA10231FD9E4EE00E32B94 /* Planner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FFD1FD9E4EE00E32B94 /* Planner@3x.png */; };
+		2AAA10241FD9E4EE00E32B94 /* School.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FFE1FD9E4EE00E32B94 /* School.png */; };
+		2AAA10251FD9E4EE00E32B94 /* School@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA0FFF1FD9E4EE00E32B94 /* School@2x.png */; };
+		2AAA10261FD9E4EE00E32B94 /* School@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA10001FD9E4EE00E32B94 /* School@3x.png */; };
+		2AAA10291FDA699600E32B94 /* ClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA10281FDA699600E32B94 /* ClassCell.swift */; };
+		2AAA102B1FDA704300E32B94 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA102A1FDA704300E32B94 /* TaskCell.swift */; };
+		2AAA102D1FDA705900E32B94 /* InstructorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA102C1FDA705900E32B94 /* InstructorCell.swift */; };
+		2AAA102F1FDA716500E32B94 /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA102E1FDA716500E32B94 /* AddTaskController.swift */; };
+		2AAA10311FDA717F00E32B94 /* AddCourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA10301FDA717F00E32B94 /* AddCourseController.swift */; };
+		2AAA10331FDA719600E32B94 /* AddInstructorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA10321FDA719600E32B94 /* AddInstructorController.swift */; };
+		2AAA10351FDA829C00E32B94 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA10341FDA829C00E32B94 /* TaskViewController.swift */; };
+		2AAA10371FDA82B000E32B94 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA10361FDA82B000E32B94 /* CourseViewController.swift */; };
+		2AAA10391FDA82CF00E32B94 /* InstructorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA10381FDA82CF00E32B94 /* InstructorViewController.swift */; };
+		2ADC48281FD86F52006CD409 /* BuildingData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC48271FD86F52006CD409 /* BuildingData.plist */; };
+		2AF5051D1FD98BD5007683EC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF5051C1FD98BD5007683EC /* MainController.swift */; };
+		DBF4CFDCD0D4992B178A5885 /* Pods_UO_Student.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2494A066C3C787D6B85142BC /* Pods_UO_Student.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A38378D1FD4B02100826174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A38376D1FD4B02100826174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3837741FD4B02100826174;
+			remoteInfo = "UO Student";
+		};
+		2A3837981FD4B02100826174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A38376D1FD4B02100826174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3837741FD4B02100826174;
+			remoteInfo = "UO Student";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2494A066C3C787D6B85142BC /* Pods_UO_Student.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UO_Student.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A23A3F31FD9BF63007FF6B9 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A23A3F51FD9BF63007FF6B9 /* Day+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A23A3F71FD9BF63007FF6B9 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A23A3F91FD9BF63007FF6B9 /* Building+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Building+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A23A3FB1FD9BF63007FF6B9 /* Instructor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Instructor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A23A4071FD9C0BD007FF6B9 /* Day+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Day+CoreDataProperties.swift"; path = "/Users/lpoole3/Repos/Assignments/finalProject/UO Student/UO Student/Source/Model/Day+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		2A23A4081FD9C0BE007FF6B9 /* Instructor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Instructor+CoreDataProperties.swift"; path = "/Users/lpoole3/Repos/Assignments/finalProject/UO Student/UO Student/Source/Model/Instructor+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		2A23A4091FD9C0BE007FF6B9 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Course+CoreDataProperties.swift"; path = "/Users/lpoole3/Repos/Assignments/finalProject/UO Student/UO Student/Source/Model/Course+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		2A23A40A1FD9C0BE007FF6B9 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "/Users/lpoole3/Repos/Assignments/finalProject/UO Student/UO Student/Source/Model/Task+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		2A23A40B1FD9C0BE007FF6B9 /* Building+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Building+CoreDataProperties.swift"; path = "/Users/lpoole3/Repos/Assignments/finalProject/UO Student/UO Student/Source/Model/Building+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		2A3837751FD4B02100826174 /* UO Student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UO Student.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3837781FD4B02100826174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A38377A1FD4B02100826174 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2A38377D1FD4B02100826174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A3837801FD4B02100826174 /* UO_Student.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UO_Student.xcdatamodel; sourceTree = "<group>"; };
+		2A3837851FD4B02100826174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A3837871FD4B02100826174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A38378C1FD4B02100826174 /* UO StudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UO StudentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3837901FD4B02100826174 /* UO_StudentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UO_StudentTests.swift; sourceTree = "<group>"; };
+		2A3837921FD4B02100826174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3837971FD4B02100826174 /* UO StudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UO StudentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A38379B1FD4B02100826174 /* UO_StudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UO_StudentUITests.swift; sourceTree = "<group>"; };
+		2A38379D1FD4B02100826174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3837BD1FD4DAE100826174 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2A3837BE1FD4DAE200826174 /* AddModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddModelController.swift; sourceTree = "<group>"; };
+		2A3837C31FD4DB2500826174 /* CustomUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIColor.swift; sourceTree = "<group>"; };
+		2A3837C51FD4DB4800826174 /* AddCourseViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCourseViewControllerDelegate.swift; sourceTree = "<group>"; };
+		2A3837C71FD4DB6300826174 /* CourseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseService.swift; sourceTree = "<group>"; };
+		2A3837C91FD4DB7500826174 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		2A38DF761FD9D0D200EDEFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AAA0FDA1FD9E4ED00E32B94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2AAA0FDB1FD9E4ED00E32B94 /* icon_20pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_20pt.png; sourceTree = "<group>"; };
+		2AAA0FDC1FD9E4ED00E32B94 /* icon_20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_20pt@2x.png"; sourceTree = "<group>"; };
+		2AAA0FDD1FD9E4ED00E32B94 /* icon_20pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_20pt@3x.png"; sourceTree = "<group>"; };
+		2AAA0FDE1FD9E4ED00E32B94 /* icon_29pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_29pt.png; sourceTree = "<group>"; };
+		2AAA0FDF1FD9E4ED00E32B94 /* icon_29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_29pt@2x.png"; sourceTree = "<group>"; };
+		2AAA0FE01FD9E4ED00E32B94 /* icon_29pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_29pt@3x.png"; sourceTree = "<group>"; };
+		2AAA0FE11FD9E4ED00E32B94 /* icon_40pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_40pt.png; sourceTree = "<group>"; };
+		2AAA0FE21FD9E4ED00E32B94 /* icon_40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_40pt@2x.png"; sourceTree = "<group>"; };
+		2AAA0FE31FD9E4ED00E32B94 /* icon_60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_60pt@2x.png"; sourceTree = "<group>"; };
+		2AAA0FE41FD9E4ED00E32B94 /* icon_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_60pt@3x.png"; sourceTree = "<group>"; };
+		2AAA0FE51FD9E4ED00E32B94 /* icon_76pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_76pt.png; sourceTree = "<group>"; };
+		2AAA0FE61FD9E4ED00E32B94 /* icon_76pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_76pt@2x.png"; sourceTree = "<group>"; };
+		2AAA0FE71FD9E4ED00E32B94 /* icon_83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_83.5@2x.png"; sourceTree = "<group>"; };
+		2AAA0FE91FD9E4EE00E32B94 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		2AAA0FEA1FD9E4EE00E32B94 /* Calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar@2x.png"; sourceTree = "<group>"; };
+		2AAA0FEB1FD9E4EE00E32B94 /* Calendar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar@3x.png"; sourceTree = "<group>"; };
+		2AAA0FEC1FD9E4EE00E32B94 /* CalendarBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBack1.png; sourceTree = "<group>"; };
+		2AAA0FED1FD9E4EE00E32B94 /* CalendarBack1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBack1@2x.png"; sourceTree = "<group>"; };
+		2AAA0FEE1FD9E4EE00E32B94 /* CalendarBack1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBack1@3x.png"; sourceTree = "<group>"; };
+		2AAA0FEF1FD9E4EE00E32B94 /* CalendarBack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBack2.png; sourceTree = "<group>"; };
+		2AAA0FF01FD9E4EE00E32B94 /* CalendarBack2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBack2@2x.png"; sourceTree = "<group>"; };
+		2AAA0FF11FD9E4EE00E32B94 /* CalendarBack2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBack2@3x.png"; sourceTree = "<group>"; };
+		2AAA0FF21FD9E4EE00E32B94 /* CalendarBack3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBack3.png; sourceTree = "<group>"; };
+		2AAA0FF31FD9E4EE00E32B94 /* CalendarBack3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBack3@2x.png"; sourceTree = "<group>"; };
+		2AAA0FF41FD9E4EE00E32B94 /* CalendarBack3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBack3@3x.png"; sourceTree = "<group>"; };
+		2AAA0FF51FD9E4EE00E32B94 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		2AAA0FF61FD9E4EE00E32B94 /* Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@2x.png"; sourceTree = "<group>"; };
+		2AAA0FF71FD9E4EE00E32B94 /* Home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@3x.png"; sourceTree = "<group>"; };
+		2AAA0FF81FD9E4EE00E32B94 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		2AAA0FF91FD9E4EE00E32B94 /* Map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map@2x.png"; sourceTree = "<group>"; };
+		2AAA0FFA1FD9E4EE00E32B94 /* Map@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map@3x.png"; sourceTree = "<group>"; };
+		2AAA0FFB1FD9E4EE00E32B94 /* Planner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Planner.png; sourceTree = "<group>"; };
+		2AAA0FFC1FD9E4EE00E32B94 /* Planner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Planner@2x.png"; sourceTree = "<group>"; };
+		2AAA0FFD1FD9E4EE00E32B94 /* Planner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Planner@3x.png"; sourceTree = "<group>"; };
+		2AAA0FFE1FD9E4EE00E32B94 /* School.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = School.png; sourceTree = "<group>"; };
+		2AAA0FFF1FD9E4EE00E32B94 /* School@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "School@2x.png"; sourceTree = "<group>"; };
+		2AAA10001FD9E4EE00E32B94 /* School@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "School@3x.png"; sourceTree = "<group>"; };
+		2AAA10281FDA699600E32B94 /* ClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCell.swift; sourceTree = "<group>"; };
+		2AAA102A1FDA704300E32B94 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		2AAA102C1FDA705900E32B94 /* InstructorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorCell.swift; sourceTree = "<group>"; };
+		2AAA102E1FDA716500E32B94 /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
+		2AAA10301FDA717F00E32B94 /* AddCourseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseController.swift; sourceTree = "<group>"; };
+		2AAA10321FDA719600E32B94 /* AddInstructorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInstructorController.swift; sourceTree = "<group>"; };
+		2AAA10341FDA829C00E32B94 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		2AAA10361FDA82B000E32B94 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		2AAA10381FDA82CF00E32B94 /* InstructorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorViewController.swift; sourceTree = "<group>"; };
+		2ADC48271FD86F52006CD409 /* BuildingData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildingData.plist; sourceTree = "<group>"; };
+		2AF5051C1FD98BD5007683EC /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		7102B9CE09730626FACD3D0D /* Pods-UO Student.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UO Student.release.xcconfig"; path = "Pods/Target Support Files/Pods-UO Student/Pods-UO Student.release.xcconfig"; sourceTree = "<group>"; };
+		F6308395EC099BA8E78FB2DC /* Pods-UO Student.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UO Student.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UO Student/Pods-UO Student.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3837721FD4B02100826174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4CFDCD0D4992B178A5885 /* Pods_UO_Student.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3837891FD4B02100826174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3837941FD4B02100826174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A38376C1FD4B02100826174 = {
+			isa = PBXGroup;
+			children = (
+				2A3837771FD4B02100826174 /* UO Student */,
+				2A38378F1FD4B02100826174 /* UO StudentTests */,
+				2A38379A1FD4B02100826174 /* UO StudentUITests */,
+				2A3837761FD4B02100826174 /* Products */,
+				ADC913B816FE5C850D4AB653 /* Pods */,
+				6AA425877082A79C9A194DD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3837761FD4B02100826174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837751FD4B02100826174 /* UO Student.app */,
+				2A38378C1FD4B02100826174 /* UO StudentTests.xctest */,
+				2A3837971FD4B02100826174 /* UO StudentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3837771FD4B02100826174 /* UO Student */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837A91FD4D4EF00826174 /* Resource */,
+				2A3837AA1FD4D4F900826174 /* Source */,
+			);
+			path = "UO Student";
+			sourceTree = "<group>";
+		};
+		2A38378F1FD4B02100826174 /* UO StudentTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837901FD4B02100826174 /* UO_StudentTests.swift */,
+				2A3837921FD4B02100826174 /* Info.plist */,
+			);
+			path = "UO StudentTests";
+			sourceTree = "<group>";
+		};
+		2A38379A1FD4B02100826174 /* UO StudentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A38379B1FD4B02100826174 /* UO_StudentUITests.swift */,
+				2A38379D1FD4B02100826174 /* Info.plist */,
+			);
+			path = "UO StudentUITests";
+			sourceTree = "<group>";
+		};
+		2A3837A91FD4D4EF00826174 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2AAA0FD91FD9E4ED00E32B94 /* App-Icons */,
+				2AAA0FE81FD9E4EE00E32B94 /* Nav-Icons */,
+				2A38DF761FD9D0D200EDEFF9 /* Assets.xcassets */,
+				2A3837871FD4B02100826174 /* Info.plist */,
+				2ADC48271FD86F52006CD409 /* BuildingData.plist */,
+				2A38377F1FD4B02100826174 /* UO_Student.xcdatamodeld */,
+				2A38377C1FD4B02100826174 /* Main.storyboard */,
+				2A3837841FD4B02100826174 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2A3837AA1FD4D4F900826174 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837B51FD4D9CA00826174 /* Protocol */,
+				2A3837B61FD4D9E500826174 /* Extension */,
+				2A3837B71FD4D9EF00826174 /* Service */,
+				2A3837B81FD4DA0B00826174 /* Model */,
+				2A3837B31FD4D9AC00826174 /* Controller */,
+				2A3837B41FD4D9BB00826174 /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2A3837B31FD4D9AC00826174 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837BE1FD4DAE200826174 /* AddModelController.swift */,
+				2A3837781FD4B02100826174 /* AppDelegate.swift */,
+				2AF5051C1FD98BD5007683EC /* MainController.swift */,
+				2A3837BD1FD4DAE100826174 /* CalendarViewController.swift */,
+				2A38377A1FD4B02100826174 /* MapViewController.swift */,
+				2AAA102E1FDA716500E32B94 /* AddTaskController.swift */,
+				2AAA10301FDA717F00E32B94 /* AddCourseController.swift */,
+				2AAA10321FDA719600E32B94 /* AddInstructorController.swift */,
+				2AAA10341FDA829C00E32B94 /* TaskViewController.swift */,
+				2AAA10361FDA82B000E32B94 /* CourseViewController.swift */,
+				2AAA10381FDA82CF00E32B94 /* InstructorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A3837B41FD4D9BB00826174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837C91FD4DB7500826174 /* CalendarCell.swift */,
+				2AAA10281FDA699600E32B94 /* ClassCell.swift */,
+				2AAA102A1FDA704300E32B94 /* TaskCell.swift */,
+				2AAA102C1FDA705900E32B94 /* InstructorCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A3837B51FD4D9CA00826174 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837C51FD4DB4800826174 /* AddCourseViewControllerDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		2A3837B61FD4D9E500826174 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837C31FD4DB2500826174 /* CustomUIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2A3837B71FD4D9EF00826174 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2A3837C71FD4DB6300826174 /* CourseService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2A3837B81FD4DA0B00826174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A23A40A1FD9C0BE007FF6B9 /* Task+CoreDataProperties.swift */,
+				2A23A4071FD9C0BD007FF6B9 /* Day+CoreDataProperties.swift */,
+				2A23A4081FD9C0BE007FF6B9 /* Instructor+CoreDataProperties.swift */,
+				2A23A4091FD9C0BE007FF6B9 /* Course+CoreDataProperties.swift */,
+				2A23A40B1FD9C0BE007FF6B9 /* Building+CoreDataProperties.swift */,
+				2A23A3F31FD9BF63007FF6B9 /* Task+CoreDataClass.swift */,
+				2A23A3F51FD9BF63007FF6B9 /* Day+CoreDataClass.swift */,
+				2A23A3F71FD9BF63007FF6B9 /* Course+CoreDataClass.swift */,
+				2A23A3F91FD9BF63007FF6B9 /* Building+CoreDataClass.swift */,
+				2A23A3FB1FD9BF63007FF6B9 /* Instructor+CoreDataClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AAA0FD91FD9E4ED00E32B94 /* App-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				2AAA0FDA1FD9E4ED00E32B94 /* Icon.png */,
+				2AAA0FDB1FD9E4ED00E32B94 /* icon_20pt.png */,
+				2AAA0FDC1FD9E4ED00E32B94 /* icon_20pt@2x.png */,
+				2AAA0FDD1FD9E4ED00E32B94 /* icon_20pt@3x.png */,
+				2AAA0FDE1FD9E4ED00E32B94 /* icon_29pt.png */,
+				2AAA0FDF1FD9E4ED00E32B94 /* icon_29pt@2x.png */,
+				2AAA0FE01FD9E4ED00E32B94 /* icon_29pt@3x.png */,
+				2AAA0FE11FD9E4ED00E32B94 /* icon_40pt.png */,
+				2AAA0FE21FD9E4ED00E32B94 /* icon_40pt@2x.png */,
+				2AAA0FE31FD9E4ED00E32B94 /* icon_60pt@2x.png */,
+				2AAA0FE41FD9E4ED00E32B94 /* icon_60pt@3x.png */,
+				2AAA0FE51FD9E4ED00E32B94 /* icon_76pt.png */,
+				2AAA0FE61FD9E4ED00E32B94 /* icon_76pt@2x.png */,
+				2AAA0FE71FD9E4ED00E32B94 /* icon_83.5@2x.png */,
+			);
+			name = "App-Icons";
+			path = "Images/App-Icons";
+			sourceTree = "<group>";
+		};
+		2AAA0FE81FD9E4EE00E32B94 /* Nav-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				2AAA0FE91FD9E4EE00E32B94 /* Calendar.png */,
+				2AAA0FEA1FD9E4EE00E32B94 /* Calendar@2x.png */,
+				2AAA0FEB1FD9E4EE00E32B94 /* Calendar@3x.png */,
+				2AAA0FEC1FD9E4EE00E32B94 /* CalendarBack1.png */,
+				2AAA0FED1FD9E4EE00E32B94 /* CalendarBack1@2x.png */,
+				2AAA0FEE1FD9E4EE00E32B94 /* CalendarBack1@3x.png */,
+				2AAA0FEF1FD9E4EE00E32B94 /* CalendarBack2.png */,
+				2AAA0FF01FD9E4EE00E32B94 /* CalendarBack2@2x.png */,
+				2AAA0FF11FD9E4EE00E32B94 /* CalendarBack2@3x.png */,
+				2AAA0FF21FD9E4EE00E32B94 /* CalendarBack3.png */,
+				2AAA0FF31FD9E4EE00E32B94 /* CalendarBack3@2x.png */,
+				2AAA0FF41FD9E4EE00E32B94 /* CalendarBack3@3x.png */,
+				2AAA0FF51FD9E4EE00E32B94 /* Home.png */,
+				2AAA0FF61FD9E4EE00E32B94 /* Home@2x.png */,
+				2AAA0FF71FD9E4EE00E32B94 /* Home@3x.png */,
+				2AAA0FF81FD9E4EE00E32B94 /* Map.png */,
+				2AAA0FF91FD9E4EE00E32B94 /* Map@2x.png */,
+				2AAA0FFA1FD9E4EE00E32B94 /* Map@3x.png */,
+				2AAA0FFB1FD9E4EE00E32B94 /* Planner.png */,
+				2AAA0FFC1FD9E4EE00E32B94 /* Planner@2x.png */,
+				2AAA0FFD1FD9E4EE00E32B94 /* Planner@3x.png */,
+				2AAA0FFE1FD9E4EE00E32B94 /* School.png */,
+				2AAA0FFF1FD9E4EE00E32B94 /* School@2x.png */,
+				2AAA10001FD9E4EE00E32B94 /* School@3x.png */,
+			);
+			name = "Nav-Icons";
+			path = "Images/Nav-Icons";
+			sourceTree = "<group>";
+		};
+		6AA425877082A79C9A194DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2494A066C3C787D6B85142BC /* Pods_UO_Student.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC913B816FE5C850D4AB653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6308395EC099BA8E78FB2DC /* Pods-UO Student.debug.xcconfig */,
+				7102B9CE09730626FACD3D0D /* Pods-UO Student.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3837741FD4B02100826174 /* UO Student */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3837A01FD4B02100826174 /* Build configuration list for PBXNativeTarget "UO Student" */;
+			buildPhases = (
+				C5C88F3D9D4DC5D2F8E89E6D /* [CP] Check Pods Manifest.lock */,
+				2A3837711FD4B02100826174 /* Sources */,
+				2A3837721FD4B02100826174 /* Frameworks */,
+				2A3837731FD4B02100826174 /* Resources */,
+				CB14DC81A8BA2F4448A77FAD /* [CP] Embed Pods Frameworks */,
+				990C364FD2FC6C90B568F2AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UO Student";
+			productName = "UO Student";
+			productReference = 2A3837751FD4B02100826174 /* UO Student.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A38378B1FD4B02100826174 /* UO StudentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3837A31FD4B02100826174 /* Build configuration list for PBXNativeTarget "UO StudentTests" */;
+			buildPhases = (
+				2A3837881FD4B02100826174 /* Sources */,
+				2A3837891FD4B02100826174 /* Frameworks */,
+				2A38378A1FD4B02100826174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A38378E1FD4B02100826174 /* PBXTargetDependency */,
+			);
+			name = "UO StudentTests";
+			productName = "UO StudentTests";
+			productReference = 2A38378C1FD4B02100826174 /* UO StudentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A3837961FD4B02100826174 /* UO StudentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3837A61FD4B02100826174 /* Build configuration list for PBXNativeTarget "UO StudentUITests" */;
+			buildPhases = (
+				2A3837931FD4B02100826174 /* Sources */,
+				2A3837941FD4B02100826174 /* Frameworks */,
+				2A3837951FD4B02100826174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3837991FD4B02100826174 /* PBXTargetDependency */,
+			);
+			name = "UO StudentUITests";
+			productName = "UO StudentUITests";
+			productReference = 2A3837971FD4B02100826174 /* UO StudentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A38376D1FD4B02100826174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Logan Poole";
+				TargetAttributes = {
+					2A3837741FD4B02100826174 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2A38378B1FD4B02100826174 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A3837741FD4B02100826174;
+					};
+					2A3837961FD4B02100826174 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A3837741FD4B02100826174;
+					};
+				};
+			};
+			buildConfigurationList = 2A3837701FD4B02100826174 /* Build configuration list for PBXProject "UO Student" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A38376C1FD4B02100826174;
+			productRefGroup = 2A3837761FD4B02100826174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3837741FD4B02100826174 /* UO Student */,
+				2A38378B1FD4B02100826174 /* UO StudentTests */,
+				2A3837961FD4B02100826174 /* UO StudentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3837731FD4B02100826174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAA100D1FD9E4EE00E32B94 /* icon_76pt@2x.png in Resources */,
+				2AAA100F1FD9E4EE00E32B94 /* Calendar.png in Resources */,
+				2AAA100B1FD9E4EE00E32B94 /* icon_60pt@3x.png in Resources */,
+				2AAA10161FD9E4EE00E32B94 /* CalendarBack2@2x.png in Resources */,
+				2AAA101B1FD9E4EE00E32B94 /* Home.png in Resources */,
+				2AAA101F1FD9E4EE00E32B94 /* Map@2x.png in Resources */,
+				2AAA10011FD9E4EE00E32B94 /* Icon.png in Resources */,
+				2AAA10101FD9E4EE00E32B94 /* Calendar@2x.png in Resources */,
+				2AAA10261FD9E4EE00E32B94 /* School@3x.png in Resources */,
+				2AAA10131FD9E4EE00E32B94 /* CalendarBack1@2x.png in Resources */,
+				2AAA10181FD9E4EE00E32B94 /* CalendarBack3.png in Resources */,
+				2ADC48281FD86F52006CD409 /* BuildingData.plist in Resources */,
+				2A3837861FD4B02100826174 /* LaunchScreen.storyboard in Resources */,
+				2AAA10231FD9E4EE00E32B94 /* Planner@3x.png in Resources */,
+				2AAA10031FD9E4EE00E32B94 /* icon_20pt@2x.png in Resources */,
+				2A38DF771FD9D0D200EDEFF9 /* Assets.xcassets in Resources */,
+				2AAA10211FD9E4EE00E32B94 /* Planner.png in Resources */,
+				2AAA10041FD9E4EE00E32B94 /* icon_20pt@3x.png in Resources */,
+				2A38377E1FD4B02100826174 /* Main.storyboard in Resources */,
+				2AAA10111FD9E4EE00E32B94 /* Calendar@3x.png in Resources */,
+				2AAA10141FD9E4EE00E32B94 /* CalendarBack1@3x.png in Resources */,
+				2AAA10091FD9E4EE00E32B94 /* icon_40pt@2x.png in Resources */,
+				2AAA10151FD9E4EE00E32B94 /* CalendarBack2.png in Resources */,
+				2AAA10251FD9E4EE00E32B94 /* School@2x.png in Resources */,
+				2AAA10021FD9E4EE00E32B94 /* icon_20pt.png in Resources */,
+				2AAA10221FD9E4EE00E32B94 /* Planner@2x.png in Resources */,
+				2AAA10201FD9E4EE00E32B94 /* Map@3x.png in Resources */,
+				2AAA10241FD9E4EE00E32B94 /* School.png in Resources */,
+				2AAA10171FD9E4EE00E32B94 /* CalendarBack2@3x.png in Resources */,
+				2AAA10071FD9E4EE00E32B94 /* icon_29pt@3x.png in Resources */,
+				2AAA100A1FD9E4EE00E32B94 /* icon_60pt@2x.png in Resources */,
+				2AAA101D1FD9E4EE00E32B94 /* Home@3x.png in Resources */,
+				2AAA10081FD9E4EE00E32B94 /* icon_40pt.png in Resources */,
+				2AAA100E1FD9E4EE00E32B94 /* icon_83.5@2x.png in Resources */,
+				2AAA101E1FD9E4EE00E32B94 /* Map.png in Resources */,
+				2AAA10061FD9E4EE00E32B94 /* icon_29pt@2x.png in Resources */,
+				2AAA10051FD9E4EE00E32B94 /* icon_29pt.png in Resources */,
+				2AAA10191FD9E4EE00E32B94 /* CalendarBack3@2x.png in Resources */,
+				2AAA10121FD9E4EE00E32B94 /* CalendarBack1.png in Resources */,
+				2AAA100C1FD9E4EE00E32B94 /* icon_76pt.png in Resources */,
+				2AAA101A1FD9E4EE00E32B94 /* CalendarBack3@3x.png in Resources */,
+				2AAA101C1FD9E4EE00E32B94 /* Home@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A38378A1FD4B02100826174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3837951FD4B02100826174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		990C364FD2FC6C90B568F2AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UO Student/Pods-UO Student-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C88F3D9D4DC5D2F8E89E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UO Student-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB14DC81A8BA2F4448A77FAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UO Student/Pods-UO Student-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UO Student/Pods-UO Student-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3837711FD4B02100826174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAA10331FDA719600E32B94 /* AddInstructorController.swift in Sources */,
+				2A3837C61FD4DB4800826174 /* AddCourseViewControllerDelegate.swift in Sources */,
+				2A23A40E1FD9C0BE007FF6B9 /* Course+CoreDataProperties.swift in Sources */,
+				2AAA102F1FDA716500E32B94 /* AddTaskController.swift in Sources */,
+				2AAA10311FDA717F00E32B94 /* AddCourseController.swift in Sources */,
+				2A3837C41FD4DB2500826174 /* CustomUIColor.swift in Sources */,
+				2AF5051D1FD98BD5007683EC /* MainController.swift in Sources */,
+				2A3837C11FD4DAE200826174 /* CalendarViewController.swift in Sources */,
+				2AAA10351FDA829C00E32B94 /* TaskViewController.swift in Sources */,
+				2A38377B1FD4B02100826174 /* MapViewController.swift in Sources */,
+				2A23A4051FD9BF63007FF6B9 /* Instructor+CoreDataClass.swift in Sources */,
+				2A3837811FD4B02100826174 /* UO_Student.xcdatamodeld in Sources */,
+				2A3837791FD4B02100826174 /* AppDelegate.swift in Sources */,
+				2AAA10371FDA82B000E32B94 /* CourseViewController.swift in Sources */,
+				2A23A4031FD9BF63007FF6B9 /* Building+CoreDataClass.swift in Sources */,
+				2A23A40C1FD9C0BE007FF6B9 /* Day+CoreDataProperties.swift in Sources */,
+				2A3837CB1FD4DB7500826174 /* CalendarCell.swift in Sources */,
+				2A23A4011FD9BF63007FF6B9 /* Course+CoreDataClass.swift in Sources */,
+				2AAA10291FDA699600E32B94 /* ClassCell.swift in Sources */,
+				2A3837C21FD4DAE200826174 /* AddModelController.swift in Sources */,
+				2A23A3FD1FD9BF63007FF6B9 /* Task+CoreDataClass.swift in Sources */,
+				2AAA10391FDA82CF00E32B94 /* InstructorViewController.swift in Sources */,
+				2A23A3FF1FD9BF63007FF6B9 /* Day+CoreDataClass.swift in Sources */,
+				2A23A40D1FD9C0BE007FF6B9 /* Instructor+CoreDataProperties.swift in Sources */,
+				2AAA102D1FDA705900E32B94 /* InstructorCell.swift in Sources */,
+				2AAA102B1FDA704300E32B94 /* TaskCell.swift in Sources */,
+				2A23A40F1FD9C0BE007FF6B9 /* Task+CoreDataProperties.swift in Sources */,
+				2A23A4101FD9C0BE007FF6B9 /* Building+CoreDataProperties.swift in Sources */,
+				2A3837C81FD4DB6300826174 /* CourseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3837881FD4B02100826174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3837911FD4B02100826174 /* UO_StudentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3837931FD4B02100826174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A38379C1FD4B02100826174 /* UO_StudentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A38378E1FD4B02100826174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3837741FD4B02100826174 /* UO Student */;
+			targetProxy = 2A38378D1FD4B02100826174 /* PBXContainerItemProxy */;
+		};
+		2A3837991FD4B02100826174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3837741FD4B02100826174 /* UO Student */;
+			targetProxy = 2A3837981FD4B02100826174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A38377C1FD4B02100826174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A38377D1FD4B02100826174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A3837841FD4B02100826174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A3837851FD4B02100826174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A38379E1FD4B02100826174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A38379F1FD4B02100826174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A3837A11FD4B02100826174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6308395EC099BA8E78FB2DC /* Pods-UO Student.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B86G47D6K;
+				INFOPLIST_FILE = "$(SRCROOT)/UO Student/Resource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpoole3.UO-Student";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A3837A21FD4B02100826174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7102B9CE09730626FACD3D0D /* Pods-UO Student.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B86G47D6K;
+				INFOPLIST_FILE = "$(SRCROOT)/UO Student/Resource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpoole3.UO-Student";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A3837A41FD4B02100826174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B86G47D6K;
+				INFOPLIST_FILE = "UO StudentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpoole3.UO-StudentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UO Student.app/UO Student";
+			};
+			name = Debug;
+		};
+		2A3837A51FD4B02100826174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B86G47D6K;
+				INFOPLIST_FILE = "UO StudentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpoole3.UO-StudentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UO Student.app/UO Student";
+			};
+			name = Release;
+		};
+		2A3837A71FD4B02100826174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B86G47D6K;
+				INFOPLIST_FILE = "UO StudentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpoole3.UO-StudentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UO Student";
+			};
+			name = Debug;
+		};
+		2A3837A81FD4B02100826174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7B86G47D6K;
+				INFOPLIST_FILE = "UO StudentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpoole3.UO-StudentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UO Student";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3837701FD4B02100826174 /* Build configuration list for PBXProject "UO Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A38379E1FD4B02100826174 /* Debug */,
+				2A38379F1FD4B02100826174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3837A01FD4B02100826174 /* Build configuration list for PBXNativeTarget "UO Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3837A11FD4B02100826174 /* Debug */,
+				2A3837A21FD4B02100826174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3837A31FD4B02100826174 /* Build configuration list for PBXNativeTarget "UO StudentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3837A41FD4B02100826174 /* Debug */,
+				2A3837A51FD4B02100826174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3837A61FD4B02100826174 /* Build configuration list for PBXNativeTarget "UO StudentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3837A71FD4B02100826174 /* Debug */,
+				2A3837A81FD4B02100826174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A38377F1FD4B02100826174 /* UO_Student.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A3837801FD4B02100826174 /* UO_Student.xcdatamodel */,
+			);
+			currentVersion = 2A3837801FD4B02100826174 /* UO_Student.xcdatamodel */;
+			path = UO_Student.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A38376D1FD4B02100826174 /* Project object */;
+}

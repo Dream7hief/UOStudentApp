@@ -1,0 +1,6 @@
+framework module Pods_UO_Student {
+  umbrella header "Pods-UO Student-umbrella.h"
+
+  export *
+  module * { export * }
+}
